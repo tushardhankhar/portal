@@ -32,7 +32,8 @@ export default function useBookSearch(query, page) {
     return () => {
       clearTimeout(timer);
     };
-  }, [query, page]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [query, page ]);
   return {
     books,
     isLoading,

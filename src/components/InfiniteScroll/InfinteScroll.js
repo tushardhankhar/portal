@@ -14,6 +14,7 @@ export default function InfiniteScroll() {
     if (search === "") {
       setPage(1);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const lastElement = useCallback(
@@ -27,6 +28,7 @@ export default function InfiniteScroll() {
       });
       if (node) observer.current.observe(node);
     },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [isLoading]
   );
 
