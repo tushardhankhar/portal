@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef, useCallback } from "react";
 import useBookSearch from "../../hooks/useBookSearch";
-import { useTheme } from "../../context/themeContext";
 import NavBar from "../NavBar/NavBar";
 
 export default function InfiniteScroll() {
@@ -11,7 +10,6 @@ export default function InfiniteScroll() {
   function handleChange(e) {
     setSearch(e.target.value);
   }
-  const { theme } = useTheme();
   useEffect(() => {
     if (search === "") {
       setPage(1);

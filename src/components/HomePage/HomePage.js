@@ -1,6 +1,5 @@
-import React, { useContext } from "react";
+import React from "react";
 import NavBar from "../NavBar/NavBar";
-import { useTheme } from "../../context/themeContext";
 import ProjectCards from "../ProjectCards/ProjectCards";
 import { PROJECTS } from "../../projectsDetails";
 
