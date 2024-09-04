@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef, useCallback } from "react";
 import useBookSearch from "../../hooks/useBookSearch";
-import NavBar from "../NavBar/NavBar";
 
 export default function InfiniteScroll() {
   const [search, setSearch] = useState("");
