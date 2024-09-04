@@ -9,7 +9,7 @@ export default function NavBar() {
   return (
     <div className="w-full h-16 bg-orange-400 dark:bg-slate-700 flex align-middle items-center justify-between px-8">
       <div className="bg-slate-900 text-white dark:text-black dark:bg-orange-500 p-2 h-8 flex items-center rounded-md">
-        <Link to={"/"}>
+        <Link  to={"/"}>
           {" "}
           <h2 className="font-bold">Tushar Dhankhar</h2>
         </Link>

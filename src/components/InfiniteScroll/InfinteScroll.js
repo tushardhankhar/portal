@@ -14,7 +14,7 @@ export default function InfiniteScroll() {
     if (search === "") {
       setPage(1);
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const lastElement = useCallback(
@@ -34,8 +34,7 @@ export default function InfiniteScroll() {
 
   return (
     <>
-    <NavBar />
-      <div className="text-center bg-[#f0f4f8] dark:bg-[#1e293b] min-h-screen ">
+      <div className="text-center">
         <input
           placeholder="Search Books ..."
           onChange={handleChange}
@@ -46,9 +45,9 @@ export default function InfiniteScroll() {
           {isLoading && <span>Loading......</span>}
           {books.map((book, index) => {
             if (index + 1 === books.length) {
-              return <div ref={lastElement}>{book.title}</div>;
+              return <div className="dark:text-white " ref={lastElement}>{book.title}</div>;
             }
-            return <div>{book.title}</div>;
+            return <div  className="dark:text-white text-lg ">{book.title}</div>;
           })}
         </div>
       </div>
