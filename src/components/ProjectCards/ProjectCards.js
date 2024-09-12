@@ -10,7 +10,11 @@ export default function ProjectCards({ project }) {
         </h2>
         <hr />
         <section className="mt-4">{project.description}</section>
-        <img className="mt-8  solid border-4 border-orange-500" src={project.image} alt="" />
+        <img
+          className="mt-8  solid border-4 border-orange-500"
+          src={project.image}
+          alt=""
+        />
       </div>
     </Link>
   );

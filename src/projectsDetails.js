@@ -7,7 +7,7 @@ export const PROJECTS = [
     description:
       "Developed an infinite scroll feature in a React application, optimizing user experience by dynamically loading content as the user scrolls.",
     link: "/infinite-scroll",
-    image : InfiniteScroll
+    image: InfiniteScroll,
   },
   {
     id: 2,
@@ -15,6 +15,6 @@ export const PROJECTS = [
     description:
       "Developed a traffic light simulation using React, featuring real-time state management for seamless transitions between red, yellow, and green lights.",
     link: "/traffic-light",
-    image : TrafficLight
+    image: TrafficLight,
   },
 ];

@@ -10,7 +10,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root />,
     children: [
-      { index: true, element: <HomePage />}, 
+      { index: true, element: <HomePage /> },
       { path: "/infinite-scroll", element: <InfiniteScroll /> },
       {
         path: "/traffic-light",
@@ -18,7 +18,6 @@ const router = createBrowserRouter([
       },
     ],
   },
- 
 ]);
 
 function App() {
