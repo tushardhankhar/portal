@@ -4,6 +4,7 @@ import { ThemeProvider } from "./context/themeContext";
 import InfiniteScroll from "./components/InfiniteScroll/InfinteScroll";
 import TrafficLight from "./components/TrafficLight/TrafficLight";
 import Root from "./components/Root";
+import StopWatch from "./components/StopWatch/StopWatch";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,9 @@ const router = createBrowserRouter([
       {
         path: "/traffic-light",
         element: <TrafficLight />,
+      },  {
+        path: "/stopwatch",
+        element: <StopWatch />,
       },
     ],
   },
