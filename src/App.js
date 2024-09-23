@@ -5,6 +5,7 @@ import InfiniteScroll from "./components/InfiniteScroll/InfinteScroll";
 import TrafficLight from "./components/TrafficLight/TrafficLight";
 import Root from "./components/Root";
 import StopWatch from "./components/StopWatch/StopWatch";
+import JobBoard from "./components/JobBoard/JobBoard";
 
 const router = createBrowserRouter([
   {
@@ -16,9 +17,14 @@ const router = createBrowserRouter([
       {
         path: "/traffic-light",
         element: <TrafficLight />,
-      },  {
+      },
+      {
         path: "/stopwatch",
         element: <StopWatch />,
+      },
+      {
+        path: "/jobBoard",
+        element: <JobBoard />,
       },
     ],
   },

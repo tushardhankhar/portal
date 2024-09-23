@@ -23,5 +23,11 @@ export const PROJECTS = [
     description: "A React Stopwatch that tracks time in hours, minutes, and seconds, allowing users to start, stop, and reset the timer.",
     link: "/stopwatch",
     image: StopWatch,
+  },{
+    id: 4,
+    name: "Job Board",
+    description: "A React Stopwatch that tracks time in hours, minutes, and seconds, allowing users to start, stop, and reset the timer.",
+    link: "/jobBoard",
+    image: StopWatch,
   },
 ];
