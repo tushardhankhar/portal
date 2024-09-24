@@ -1,4 +1,4 @@
-import { InfiniteScroll, StopWatch, TrafficLight } from "./assets";
+import { EmployeeDatabase, InfiniteScroll, StopWatch, TrafficLight } from "./assets";
 
 export const PROJECTS = [
   {
@@ -20,14 +20,25 @@ export const PROJECTS = [
   {
     id: 3,
     name: "StopWatch",
-    description: "A React Stopwatch that tracks time in hours, minutes, and seconds, allowing users to start, stop, and reset the timer.",
+    description:
+      "A React Stopwatch that tracks time in hours, minutes, and seconds, allowing users to start, stop, and reset the timer.",
     link: "/stopwatch",
     image: StopWatch,
-  },{
+  },
+  {
     id: 4,
     name: "Job Board",
-    description: "A React Stopwatch that tracks time in hours, minutes, and seconds, allowing users to start, stop, and reset the timer.",
+    description:
+      "A React Stopwatch that tracks time in hours, minutes, and seconds, allowing users to start, stop, and reset the timer.",
     link: "/jobBoard",
     image: StopWatch,
+  },
+  {
+    id: 5,
+    name: "Employee Database",
+    description:
+      "A React Stopwatch that tracks time in hours, minutes, and seconds, allowing users to start, stop, and reset the timer.",
+    link: "/employeeDatabase",
+    image: EmployeeDatabase,
   },
 ];

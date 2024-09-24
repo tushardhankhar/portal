@@ -3,3 +3,4 @@ export { default as DarkThemeLogo } from "./sun.png";
 export { default as InfiniteScroll } from "./infinite.jpg";
 export { default as TrafficLight } from "./Traffic.jpg";
 export { default as StopWatch } from "./stopwatch.jpg";
+export { default as EmployeeDatabase } from "./employeeDatabase.jpg";

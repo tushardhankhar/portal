@@ -6,6 +6,7 @@ import TrafficLight from "./components/TrafficLight/TrafficLight";
 import Root from "./components/Root";
 import StopWatch from "./components/StopWatch/StopWatch";
 import JobBoard from "./components/JobBoard/JobBoard";
+import EmployeeDatabase from "./components/EmployeeDatabase/EmployeeDatabase";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/jobBoard",
         element: <JobBoard />,
+      },
+      {
+        path: "/employeeDatabase",
+        element: <EmployeeDatabase />,
       },
     ],
   },
